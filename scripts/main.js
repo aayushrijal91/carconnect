@@ -228,7 +228,7 @@ if (params.partnerId) {
     localStorage.setItem('externalPartnerId', params.partnerId);
 } else {
     if (localStorage.getItem("externalPartnerId") === null) {
-        localStorage.setItem("externalPartnerId", 1821);
+        localStorage.setItem("externalPartnerId", 1890);
     }
 }
 
